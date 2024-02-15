@@ -1,9 +1,7 @@
-// <uniquifier>: Use a uniquifier for the class name
-// <weight>: Use a value from 100 to 900
-
 .montserrat-homepagefont > {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 1>;
-  font-style: normal;
-}
+  font-optical-sizing:auto
+  font-weight:100
+  font-style: normal
+};
+
