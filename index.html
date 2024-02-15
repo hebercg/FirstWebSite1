@@ -42,12 +42,22 @@
     <a href="https://www.ncirl.ie" target="_blank"> NCI Page</a>
 
     <form>
-      <h5>Provide me some feedback, I am studying HTML and CSS</h5>
-      <label> Name: </label>
-      <input type="text" /><br />
-      <label> email: </label>
-      <input type="text" /><br />
-      <button>Submit feedback</button><br />
+      <h5>Provide your contact information</h5>
+      <div>
+        <label for=""> Name: </label>
+        <input type="text" placeholder="Enter your name here" /><br />
+        <label for=""> Address: </label>
+        <input
+          type="text"
+          size="30"
+          placeholder="Enter your address here"
+        /><br />
+        <label for=""> email: </label>
+        <input type="email" placeholder="youremail@email.com" required /><br />
+        <label for=""> date: </label>
+        <input type="date" placeholder="your date of birth" required /><br />
+      </div>
+      <button>Submit</button><br />
     </form>
   </body>
 </html>
