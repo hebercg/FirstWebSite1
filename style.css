@@ -1,7 +1,21 @@
-.montserrat-homepagefont > {
+.montserrat-homepagefont {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing:auto
-  font-weight:100
-  font-style: normal
-};
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
