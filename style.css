@@ -6,6 +6,7 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 body {
   font-family: "Roboto", sans-serif;
@@ -15,7 +16,28 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
-
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
 p {
   font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: "OpenSans", sans-serif;
+}
+
+h3 {
+  font-family: "OpenSans", sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "OpenSans", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "OpenSans", sans-serif;
 }

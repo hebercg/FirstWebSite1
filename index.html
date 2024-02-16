@@ -40,10 +40,15 @@
     <a href="https://www.ncirl.ie" target="_blank">NCI Page</a>
 
     <form>
-      <h5>Provide your contact information</h5>
+      <h3>Provide your contact information</h3>
 
       <label for="name">Name:</label>
-      <input type="text" id="name" placeholder="Enter your name here" /><br />
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter your name here"
+        required
+      /><br />
 
       <label for="address">Address:</label>
       <input
@@ -63,8 +68,16 @@
 
       <label for="date">Date:</label>
       <input type="date" id="date" required /><br />
+      <label> What did you like about my first ever Website</label><br />
+      <select>
+        <option>HTML</option>
+        <option>CSS Styling</option>
+        <option>Google Fonts</option>
+        <br />
+        <br />
+      </select>
 
-      <input type="submit" />
+      <input type="submit" /> <br />
       <input type="reset" /><br />
     </form>
   </body>
