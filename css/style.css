@@ -42,3 +42,15 @@ h3 {
 p {
   font-family: "OpenSans", sans-serif;
 }
+
+div {
+  border: 50px rgb(166, 161, 161);
+  float: right;
+  padding: 10px;
+}
+
+img {
+  border: 50px rgb(166, 161, 161);
+  float: left;
+  padding: 10px;
+}
