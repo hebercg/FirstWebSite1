@@ -54,3 +54,66 @@ img {
   float: left;
   padding: 10px;
 }
+
+#content {
+  float: left;
+  width: 70%;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+}
+
+.menu-bar {
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+.menu-bar a {
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu-bar h2 {
+  margin-top: 0;
+}
+
+.menu-bar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 980px) {
+  #pagewrap {
+    width: 90%;
+  }
+  #content {
+    width: 60%;
+    background-color: rgb(140, 172, 184);
+  }
+  #sidebar {
+    width: 30%;
+    background-color: rgb(140, 172, 184);
+  }
+}
+@media screen and (max-width: 700px) {
+  #content {
+    width: auto;
+    float: none;
+    background-color: orange;
+  }
+  #sidebar {
+    width: auto;
+    float: none;
+  }
+}
