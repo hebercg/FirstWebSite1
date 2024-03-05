@@ -143,5 +143,16 @@ img {
       width: 30%;
       background: (to bottom, #808080, #a2c1e7);
     }
+    @media screen and (min-width: 1024px) {
+      .text-content {
+        width: 60%;
+        margin-left: 20%;
+      }
+    }
+    #content {
+      width: 70%;
+      margin-left: 200px;
+      padding: 20px;
+    }
   }
 }
