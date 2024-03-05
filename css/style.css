@@ -98,13 +98,15 @@ img {
   padding: 10px 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 20px;
-  position: left;
+  position: fixed;
   left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 25%;
+  transform: translateY(-60%);
+  width: 350px;
 }
 
 .navbar a {
+  float: left;
   display: block;
   color: black;
   text-align: center;
@@ -112,7 +114,7 @@ img {
   text-decoration: none;
   border-radius: 18px;
   transition: background-color 0.3s, color 0.3s;
-  position: center;
+  margin-right: 10px;
 }
 
 .navbar a.active {
