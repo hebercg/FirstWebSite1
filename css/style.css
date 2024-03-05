@@ -6,7 +6,9 @@ body {
   font-family: "Open Sans", sans-serif;
   background: linear-gradient(to bottom, #808080, #a2c1e7);
 }
-
+.text-content {
+  margin-left: 200px;
+}
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -87,27 +89,57 @@ img {
   padding: 0;
   margin: 0;
 }
-@media screen and (max-width: 980px) {
-  #pagewrap {
-    width: 90%;
-  }
-  #content {
-    width: 60%;
-    background-color: rgb(140, 172, 184);
-  }
-  #sidebar {
-    width: 30%;
-    background-color: rgb(140, 172, 184);
-  }
+
+.navbar {
+  overflow: hidden;
+  background-color: #808080;
+  background-image: linear-gradient(90deg, #808080, #a2c1e7);
+  border-radius: 30px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  position: left;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navbar a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 18px;
+  transition: background-color 0.3s, color 0.3s;
+  position: center;
+}
+
+.navbar a.active {
+  background-color: #fff;
+  color: black;
 }
 @media screen and (max-width: 700px) {
   #content {
     width: auto;
     float: none;
-    background-color: orange;
+    background: (to bottom, #808080, #a2c1e7);
   }
   #sidebar {
     width: auto;
     float: none;
+  }
+  @media screen and (max-width: 980px) {
+    #pagewrap {
+      width: 90%;
+    }
+    #content {
+      width: 60%;
+      background: (to bottom, #808080, #a2c1e7);
+    }
+    #sidebar {
+      width: 30%;
+      background: (to bottom, #808080, #a2c1e7);
+    }
   }
 }
