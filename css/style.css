@@ -1,60 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-
 body {
   font-family: "Open Sans", sans-serif;
   background: linear-gradient(to bottom, #808080, #a2c1e7);
-}
-
-.text-content {
-  margin-left: 200px;
-}
-
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: x-large;
-}
-
-h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: large;
-}
-
-p {
-  font-family: "Roboto", sans-serif;
-  font-size: medium;
-}
-
-h3 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-}
-
-div {
-  border: 50px rgb(166, 161, 161);
-  float: right;
-  padding: 10px;
-}
-
-img {
-  display: block;
   margin: 0;
-  border: 10px solid rgb(166, 161, 161);
-  float: left;
-  padding: 10px;
+  padding: 0;
 }
 
-#content {
-  float: left;
-  width: 70%;
-}
-
-#sidebar {
-  float: right;
-  width: 30%;
+#pagewrap {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 60px; /* Adjust for footer height */
 }
 
 .navbar {
@@ -64,12 +18,8 @@ img {
   border-radius: 30px;
   padding: 10px 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 20px;
-  position: fixed;
-  left: 0;
-  top: 25%;
-  transform: translateY(-60%);
-  width: 400px;
+  margin: 20px auto; /* Center navbar horizontally */
+  width: 100%;
 }
 
 .navbar a {
@@ -94,56 +44,9 @@ img {
   color: black;
 }
 
-@media screen and (max-width: 700px) {
-  #pagewrap {
-    width: 90%;
-  }
-  #content {
-    width: auto;
-    float: none;
-    background: (to bottom, #808080, #a2c1e7);
-  }
-  #sidebar {
-    width: auto;
-    float: none;
-  }
-}
-
-@media screen and (max-width: 980px) {
-  #pagewrap {
-    width: 90%;
-  }
-  #content {
-    width: 60%;
-    background: (to bottom, #808080, #a2c1e7);
-  }
-  #sidebar {
-    width: 30%;
-    background: (to bottom, #808080, #a2c1e7);
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  #pagewrap {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  #pagewrap {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  #pagewrap {
-    width: 100%;
-  }
-}
-
 #content {
-  width: 100%;
-  margin-left: 200px;
+  float: left;
+  width: 70%;
   padding: 20px;
 }
 
@@ -151,9 +54,9 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  background: (to bottom, #808080, #a2c1e7);
-  color: #171616;
+  background: linear-gradient(to bottom, #808080, #a2c1e7);
+  color: #fff;
   padding: 10px;
   text-align: center;
-  width: auto;
+  width: 100%;
 }
