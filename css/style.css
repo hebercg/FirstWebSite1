@@ -9,54 +9,54 @@ body {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 60px;
+}
 
-  .navbar {
-    overflow: hidden;
-    background-color: #808080;
-    background-image: linear-gradient(90deg, #808080, #a2c1e7);
-    border-radius: 30px;
-    padding: 10px 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 20px auto;
-    width: 100%;
-  }
+.navbar {
+  overflow: hidden;
+  background-color: #808080;
+  background-image: linear-gradient(90deg, #808080, #a2c1e7);
+  border-radius: 30px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  width: 100%;
+}
 
-  .navbar a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 8px 16px;
-    text-decoration: none;
-    border-radius: 18px;
-    transition: background-color 0.3s, color 0.3s;
-    margin-right: 10px;
-  }
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 18px;
+  transition: background-color 0.3s, color 0.3s;
+  margin-right: 10px;
+}
 
-  .navbar a:hover {
-    background-color: #fff;
-    color: black;
-  }
+.navbar a:hover {
+  background-color: #fff;
+  color: black;
+}
 
-  .navbar a.active {
-    background-color: #fff;
-    color: black;
-  }
+.navbar a.active {
+  background-color: #fff;
+  color: black;
+}
 
-  #content {
-    float: left;
-    width: 70%;
-    padding: 20px;
-  }
+#content {
+  float: left;
+  width: 70%;
+  padding: 20px;
+}
 
-  footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    background: linear-gradient(to bottom, #808080, #a2c1e7);
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-  }
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, #808080, #a2c1e7);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
 }
